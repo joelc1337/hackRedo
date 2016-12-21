@@ -18,7 +18,7 @@
         point:8,
       },
     ],
-    image:"Images/Trash.jpg",
+    image:"Images/trash.jpg",
   },
 
   stage2 = {
