@@ -1,5 +1,5 @@
 
-
+     
   var stage1 = {
 
     question:"You walk up to a trash can.",
