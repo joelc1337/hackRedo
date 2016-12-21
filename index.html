@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Hackathon Redo "Novel "</title>
+    <!-- Libraries -->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css  ">
+    <script src="https://use.fontawesome.com/468138e32d.js"></script>
+    <!-- Externals -->
+    <script type="text/javascript" src="scenarios.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div class="jumbotron container-fluid" id="title">
+      <h1> Enviromental Awareness! </h1>
+      <button class="btn-resposnive"  id="start" type="button" name="button"> Start! </button>
+    </div>
+
+    <div id="scenarios" class="container-fluid">
+      <div class="col-xs-12 jumbotron"> <h2 id="question"> Question</h2> </div>
+      <div id="answers">
+
+        <div class="answer row col-xs-4 col-md-offset-4" >
+          <p style="user-select:none;cursor:pointer" id="a1"> Choice A</p>
+        </div>
+
+        <div class="answer row col-xs-4 col-md-offset-4" >
+          <p style="user-select:none;cursor:pointer" id="a2"> Choice B</p>
+        </div>
+
+        <div class="answer row col-xs-4 col-md-offset-4" >
+          <p style="user-select:none;cursor:pointer" id="a3"> Choice C</p>
+        </div>
+
+      </div>
+      <!-- <div id="factBox" class=" col-xs-12 jumbotron">
+        <h2> Luis Sucks </h2>
+      </div> -->
+
+
+    </div>
+
+    <div id="endScreen" class="container-fluid">
+      <div id="pointBox">
+        <h1>Points!</h1>
+        <h2 id="points"> 0 </h2>
+      </div>
+    </div>
+
+  </body>
+</html>
